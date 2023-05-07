@@ -1,0 +1,73 @@
+
+
+#############################
+CNN_textClassify.py: Uses a Neural networt to classify bewteen 6 age classes 
+#################################
+The found metrics were:
+Epoch 13: early stopping
+Time:  8.02943752200008
+[[  26  301   46   37    8   15]
+ [  18 1154  151  235   57   43]
+ [   9  592  158  323   98   35]
+ [   5  538  202  990  269  104]
+ [   4  282   95  497  291   67]
+ [   1  219   68  205   95  112]]
+F-score:   0.28278257066262863
+Accuaracy:  0.3715646258503401
+
+Process finished with exit code 0
+
+
+
+
+##########################
+
+CtTweet.py: Uses a counting text characteristic to classification:
+#######################3
+The found metrics were:
+
+Time:  3.8227698370001235
+confusion matrix
+[[  42  372    4  200   12    2]
+ [  62 1599   40  657   37    7]
+ [  27  769   43  841   26    5]
+ [  25  630   43 2162  113   34]
+ [  28  364   21 1201  109   28]
+ [  15  257   25  601   76   23]]
+accuaracy:  0.37885714285714284
+F-score:   0.21504812937741782
+confusion matrix
+[[4281 1474]
+ [1726 3019]]
+Two Classes , accuaracy:  0.6952380952380952
+Two Classes,F-score:   0.6907710509723797
+
+confusion matrix - data augmentation
+[[  99  332   11  120   35   35]
+ [ 144 1541   68  425  134   90]
+ [  80  760   62  575  160   74]
+ [  70  634   94 1598  440  171]
+ [  55  365   35  867  283  146]
+ [  39  241   52  401  157  107]]
+Augmented data , accuaracy:  0.3514285714285714
+Augmented data ,F-score:   0.2515726870673052
+
+#######################
+BERT MODEL: usees a transfer learning approach on the Bert model
+############
+
+Test set confusiomat: [[  35  265   38  126    5    5]
+ [  26 1059  170  456   19    5]
+ [  12  406  108  633   14    4]
+ [   7  211  107 1685   58    6]
+ [   3  103   61  971   66    4]
+ [   9   80   31  510   38   14]]
+Test set f1score: 0.24248268944681015
+Test set accuracy: 0.4036734693877551
+
+#################
+Clean data Mesuares
+##########
+
+To clean Data takes, Time:  1174.1861341440003 segs ~19.56 min in a Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz
+
